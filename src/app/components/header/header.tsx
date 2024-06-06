@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 
 export default function Header() {
+
     const [isTransparent, setIsTransparent] = useState(true);
 
     useEffect(() => {
@@ -21,18 +22,20 @@ export default function Header() {
 
     return (
 
-        <header className=" transition-opacity w-full"
+        <header className=" transition-opacity h-screen w-full"
+
             style={{
                 display: "flex",
                 flexDirection: isTransparent ?  "column" : "row",
                 position: isTransparent ? 'fixed' : 'static' ,
                 justifyContent: 'center',
-                height: isTransparent ?  "80px" : '927px',
-                width: '100%',
+                height: isTransparent ?  "80px" : '100vh',
+                backgroundAttachment: 'local',
+                backgroundPosition: 'center',
                 backgroundSize: 'cover',
                 background: isTransparent ?  "transparent" : "url('/img/ocean-bg.png')"
-
             }}>
+
             <div className="flex items-center  mx-[50px]">
                 <div>
                     <img src="/img/logo2.svg" className="w-[400px]" style={{ width: isTransparent ?  '180px' : '400px' }} /> {/* Alteração aqui: largura menor quando transparente, maior quando não transparente */}
