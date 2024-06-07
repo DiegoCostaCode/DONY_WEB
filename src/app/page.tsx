@@ -6,6 +6,7 @@ import Intro from "./components/introductionProject/introductionProject";
 import Appeal from "./components/appeal/appeal";
 import Materials from "./components/materials/materials";
 import LatestsNews from "./components/latestsnews/latestsnews";
+import Footer from "./components/footer/footer";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <LatestsNews />
         <Appeal />
       </div>
+
     </main>
   );
 }

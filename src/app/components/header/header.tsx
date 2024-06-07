@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import LoginBtn from "../button/loginbtn";
 
 export default function Header() {
 
@@ -42,12 +43,8 @@ export default function Header() {
                     <img src="/img/logo2.svg" className="w-[400px]" style={{ width: isTransparent ?  '180px' : '400px' }} /> {/* Alteração aqui: largura menor quando transparente, maior quando não transparente */}
                 </div>
 
-                <button id="login-btn" className="ml-auto font-bold p-button text-primary bg-white rounded-xl"
-                    style={{
-                        visibility: isTransparent ?  "visible" : "hidden"
-                    }}>
-                    Login
-                </button>
+                <LoginBtn id={"login-btn"} format={{ visibility: isTransparent ? "visible" : "hidden" }} text={"Login"} />
+
             </div>
         </header>
     );
