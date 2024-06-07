@@ -13,7 +13,7 @@ export default function Header() {
 
 
     const handleScroll = () => {
-        if (window.scrollY > 500) {
+        if (window.scrollY > 950) {
             setIsTransparent(true);
         } else {
             setIsTransparent(false);
@@ -36,7 +36,8 @@ export default function Header() {
                 background: isTransparent ?  "transparent" : "url('/img/ocean-bg.png')"
             }}>
 
-            <div className="flex items-center  mx-[50px]">
+            <div className="flex items-center  mx-[50px]"
+            >
                 <div>
                     <img src="/img/logo2.svg" className="w-[400px]" style={{ width: isTransparent ?  '180px' : '400px' }} /> {/* Alteração aqui: largura menor quando transparente, maior quando não transparente */}
                 </div>

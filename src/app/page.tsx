@@ -4,7 +4,8 @@ import Header from "@/app/components/header/header";
 import Image from "next/image";
 import Intro from "./components/introductionProject/introductionProject";
 import Appeal from "./components/appeal/appeal";
-import News from "./components/news/news";
+import Materials from "./components/materials/materials";
+import LatestsNews from "./components/latestsnews/latestsnews";
 
 export default function Home() {
   return (
@@ -12,9 +13,10 @@ export default function Home() {
       <div className="h-screen">
         <Header />
       </div>
-      <div className="flex-1 h-screen">
+      <div className="flex-1 bg-gradient-to-b from-primary via-transparent to-[#070707] ">
         <Intro />
-        <News />
+        <Materials />
+        <LatestsNews />
         <Appeal />
       </div>
     </main>

@@ -1,6 +1,6 @@
 export default function Appel() {
     return (
-        <section className="flex bg-[#070707] items-center justify-center w-full">
+        <section className="flex bg-[#070707] items-center justify-center">
             <div className="">
                 <img src="/img/mj.png" className="w-[350px]" alt="michael jackson - perfomando Man in the Mirror Bad Tour"/>
             </div>
@@ -10,7 +10,6 @@ export default function Appel() {
                 </p>
                 <a href="https://www.youtube.com/watch?v=PivWY9wn5ps" className="text-base">Man in the Mirror - Michael Jackson</a>
             </div>
-
         </section>
     )
 }
