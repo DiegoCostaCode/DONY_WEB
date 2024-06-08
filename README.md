@@ -8,6 +8,6 @@ Dony vem de Donatello, referenciando a popular tartaruga de Tartatugas Ninja. Es
 
 ## Links Úteis
 
-- **Vídeo:** [https://www.youtube.com/watch?v=QZpQeWLiQ20](https://www.youtube.com/watch?v=QZpQeWLiQ20)
+- **Vídeo:** [YOUTUBE]()
 - **Repositório Java:** [JAVA](https://github.com/DiegoCostaCode/JAVA_API_DONY)
 - **Vercel:** [VERCEL]()
